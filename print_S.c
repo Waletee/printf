@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
-* print_S - A function that prints a string and nonprintable
-* character ascii values
-* @S: string to print
-* Return: number of printed characters
-*/
+ * print_S - A function that prints a string and nonprintable
+ * character ascii values.
+ * @S: string to print
+ * Return: number of printed characters
+ */
 
 int print_S(va_list S)
 {
