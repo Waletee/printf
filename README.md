@@ -4,4 +4,4 @@ This project is a group project of printf function in C at ALX Software Engineer
 
 This project emulates the operation of printf function in C.
 
-Colaborations.
+This project is been carried by Abiodun Taiwo and Abiodun Ogunremi.
