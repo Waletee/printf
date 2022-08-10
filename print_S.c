@@ -7,6 +7,7 @@
 * @S: string to print
 * Return: number of printed characters
 */
+
 int print_S(va_list S)
 {
 	unsigned int i = 0;
