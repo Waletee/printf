@@ -1,4 +1,4 @@
-.TH man 3 "15 March 2019" "GNU" "_printf man page"
+.TH man 3 "10 August 2022" "GNU" "_printf man page"
 .SH NAME
 .B _printf
 - Formatted output conversion
@@ -28,7 +28,7 @@ The int argument is converted to signed decimal notation.
 .B c
 The int argument is converted to an unsigned char, and the resulting character is written.
 .TP
-.B s
+.B s \t
 The const char * argument is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up (but not including) a terminating null byte ('\0').
 .TP
 .B x, X
