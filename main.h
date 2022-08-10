@@ -18,6 +18,7 @@ int print_X(va_list X);
 int print_dec(va_list d);
 int print_p(va_list p);
 int (*find_function(const char *format))(va_list);
+int get_flags(const char *format, int *i);
 
 /**
   * struct code_format - Struct format
