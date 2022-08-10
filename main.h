@@ -18,7 +18,13 @@ int print_X(va_list X);
 int print_dec(va_list d);
 int print_p(va_list p);
 int (*find_function(const char *format))(va_list);
-int get_flags(const char *format, int *i);
+int flags_char(const char *format, int *i);
+
+#define F_MINUS 1
+#define F_PLUS 2
+#define F_ZERO 4
+#define F_HASH 8
+#define F_SPACE 16
 
 /**
   * struct code_format - Struct format
